@@ -1,31 +1,33 @@
-# React + TypeScript + Vite
+# Linked List Visualizer with Framer Motion Documentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Linked List Visualizer with Framer Motion is a React-based web application that allows users to interactively create and manipulate linked lists visually. Leveraging the Framer Motion library, users can drag and drop nodes within a container, connect them to form a linked list, and observe real-time animations as they manipulate the data structure.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Draggable Nodes**: Each node in the linked list is draggable, enabling users to rearrange the sequence of nodes within the container.
 
-- Configure the top-level `parserOptions` property like this:
+2. **Interactive Connections**: Users can visually connect nodes to form a linked list, observing animated lines between connected nodes.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. **Node Creation and Deletion**: Functionality to add new nodes to the linked list and delete existing nodes is provided, allowing for dynamic manipulation of the data structure.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# LinkedListVisualiser
+4. **Responsive Design**: The application is designed to be responsive, adapting to various screen sizes and orientations.
+
+## Technologies Used
+
+- **React**: The project is built using React, a JavaScript library for building user interfaces.
+
+- **Framer Motion**: Framer Motion is utilized for creating fluid animations and interactive elements, such as draggable nodes and animated connections between nodes.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository from [GitHub Repo URL].
+
+2. Navigate to the project directory in your terminal.
+
+3. Install dependencies by running `npm install`.
