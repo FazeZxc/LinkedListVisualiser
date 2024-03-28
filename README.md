@@ -26,7 +26,7 @@ The Linked List Visualizer with Framer Motion is a React-based web application t
 
 To run the project locally, follow these steps:
 
-1. Clone the repository from [GitHub Repo URL].
+1. Clone the repository from https://github.com/FazeZxc/LinkedListVisualiser.
 
 2. Navigate to the project directory in your terminal.
 
